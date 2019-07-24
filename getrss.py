@@ -61,7 +61,7 @@ os.rename("edition.mp3", "/var/www/html/edition.mp3")
 
 # Construct our RSS feed
 fe = fg.add_entry()
-fe.id("http://thirdprong.com/edition.mp3")
+fe.id("http://example.com/edition.mp3")
 fe.title('The Edition')
 fe.description('A collection of podcasts')
 fe.link(href="http://example.com/podcast.xml")
