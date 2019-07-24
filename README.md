@@ -16,4 +16,4 @@ Each script can be modified to check inventory for different products and stores
 
 I wanted to make my own RSS feed that had a daily collection of news related podcasts. I didn't want to deal with a multitude of subscriptions, so this script downloads the MP3 files, combines them into one MP3 file, then adds it to its own RSS feed.
 
-The script requires two libraries (feedparser and feedgen) as well as FFMPEG. This assums Apache or some web server is installed to host the RSS feed and MP3 file for downloading.
+The script requires two libraries (feedparser and feedgen) as well as FFMPEG. This assumes Apache or some web server is installed to host the RSS feed and MP3 file for downloading.
