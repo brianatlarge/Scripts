@@ -11,3 +11,9 @@ This will log into a list of IP's via SSH using the supplied credentials and upd
 I wanted to automatically check the inventory of Milorganite at my local home improvement stores. These scripts will check the local inventory and determine if it's in stock or not.
 
 Each script can be modified to check inventory for different products and stores.
+
+## getrss.py ##
+
+I wanted to make my own RSS feed that had a daily collection of news related podcasts. I didn't want to deal with a multitude of subscriptions, so this script downloads the MP3 files, combines them into one MP3 file, then adds it to its own RSS feed.
+
+The script requires two libraries (feedparser and feedgen) as well as FFMPEG. This assums Apache or some web server is installed to host the RSS feed and MP3 file for downloading.
